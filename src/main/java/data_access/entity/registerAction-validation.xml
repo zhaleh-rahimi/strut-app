@@ -1,0 +1,29 @@
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.3//EN"
+        "http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+<validators>
+    <field name="firstName">
+        <field-validator type="requiredstring">
+            <message>ورود نام الزامی است.</message>
+        </field-validator>
+    </field>
+    <field name="lastName">
+        <field-validator type="requiredstring">
+            <message>ورود نام خانوادگی الزامی است.</message>
+        </field-validator>
+    </field>
+    <field name="fatherName">
+        <field-validator type="requiredstring">
+            <message>ورود نام پدر الزامی است.</message>
+        </field-validator>
+    </field>
+    <field name="dateOfBirth">
+        <field-validator type="requiredstring">
+            <message>ورود تاریخ تولد الزامی است.</message>
+        </field-validator>
+    </field>
+    <field name="nationalCode">
+        <field-validator type="requiredstring">
+            <message>ورود کد ملی الزامی است.</message>
+        </field-validator>
+    </field>
+</validators>
